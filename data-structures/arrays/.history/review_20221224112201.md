@@ -1,0 +1,2 @@
+Pros:
+Cons: Slow insertion
