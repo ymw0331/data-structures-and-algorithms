@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8bf9ade3-c652-4481-bb36-00f51a5d1afa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.history/029 big-o-notation-scalability_20221222112959.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/029 big-o-notation-scalability_20221222113009.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/code-interview/01 big-o/001 big-0-cheatsheet_20221222102617" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/code-interview/01 big-o/001 big-0-cheatsheet_20221222102621" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/code-interview/01 big-o/001 good-code_20221222104845.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/code-interview/01 big-o/001 good-code_20221222104856.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/code-interview/01 big-o/001 good-code_20221222104858.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/code-interview/index_20221222112619.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/code-interview/index_20221222112625.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/01-array-introduction_20221223135429.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/01-array-introduction_20221223140629.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/01-array-introduction_20221224092706.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/01-array-introduction_20221224092708.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/01-array-introduction_20221224092710.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/02-classes-in-javascript_20221223140520.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/02-classes-in-javascript_20221223140550.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/03-implement-an-array_20221223140520.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/03-implement-an-array_20221223140556.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/04-reverse-a-string_20221223140520.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/04-reverse-a-string_20221223140605.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/05-merged-sort-arrays_20221223140520.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/05-merged-sort-arrays_20221223140615.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/05-merged-sort-arrays_20221224095924.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/05-merged-sort-arrays_20221224102425.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/05-merged-sort-arrays_20221224102426.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/05-merged-sort-arrays_20221224102442.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/05-merged-sort-arrays_20221224102443.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/05-merged-sort-arrays_20221224102447.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103702.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103721.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103723.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103726.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103730.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103731.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103733.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103736.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103740.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103746.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103754.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103755.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103812.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103814.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103816.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103817.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103819.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224103842.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111230.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111231.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111233.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111243.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111246.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111247.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111251.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111252.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111254.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111321.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111325.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/06-two-sum_20221224111327.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/review_20221224112144.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/review_20221224112157.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/.history/review_20221224112201.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/01-array-introduction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/02-classes-in-javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/03-implement-an-array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/04-reverse-a-string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/05-merged-sort-arrays.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/06-two-sum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/arrays/review.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JLYlCX8daz2HTEwySVr5RVkZ2y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bf9ade3-c652-4481-bb36-00f51a5d1afa" name="Changes" comment="" />
+      <created>1671858991822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671858991822</updated>
+    </task>
+    <servers />
+  </component>
+</project>
