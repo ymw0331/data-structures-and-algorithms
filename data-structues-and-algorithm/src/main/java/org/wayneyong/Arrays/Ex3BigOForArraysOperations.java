@@ -1,4 +1,4 @@
-package org.wayneyong.arrays;
+package org.wayneyong.Arrays;
 
 /**
  * Retrieve an Element from an Array

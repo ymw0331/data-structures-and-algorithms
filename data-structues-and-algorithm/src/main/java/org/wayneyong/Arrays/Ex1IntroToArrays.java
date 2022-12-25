@@ -1,4 +1,4 @@
-package org.wayneyong.arrays;
+package org.wayneyong.Arrays;
 
 public class Ex1IntroToArrays {
     public static void main(String[] args) {
