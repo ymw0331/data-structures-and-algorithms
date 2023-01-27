@@ -12,22 +12,10 @@
 //   4
 //   buzz
 
-function fizzBuzz ( n )
+function fizzBuzz ( num )
 {
-  for ( i = 1; i <= n; i++ )
-  {
-    // Is the number a multiple of 3 and 5
-    if ( i % 15 === 0 ) console.log( "fizzbuzz" );
+  for(i=0 ; i< num)
 
-    // Is the number a multiple of 3
-    else if ( i % 3 === 0 ) console.log( "fizz" );
-
-    // Is the number a multiple of 5
-    else if ( i % 5 === 0 ) console.log( "buzz" );
-
-    
-    else console.log( i );
-  }
 
 }
 
