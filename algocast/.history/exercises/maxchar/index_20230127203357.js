@@ -44,7 +44,7 @@ function maxChar ( str )
   for ( let char in stringObj )
   {
     // 5. Compare each character to the current maximum occurence
-    if ( stringObj[ char ] > maxValue )
+    if ( stringObj[ char ] > max )
     {
       maxValue = stringObj[ char ];
       maxChar = char;

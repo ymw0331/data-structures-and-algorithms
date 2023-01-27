@@ -13,7 +13,7 @@
 
 function reverseInt ( num )
 {
-  const reversed = num.toString().split( '' ).reverse().join( '' );
+  const reversed = n.toString().split( '' ).reverse().join( '' );
 
   // if ( n < 0 )
   // {
@@ -21,7 +21,7 @@ function reverseInt ( num )
   // }
 
   // return parseInt( reversed );
-  return parseInt( reversed ) * Math.sign( num );
+  return parseInt( reversed ) * Math.sign( n );
 
 }
 

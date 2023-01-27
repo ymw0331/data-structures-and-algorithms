@@ -21,7 +21,7 @@ function maxChar ( str )
 
   // 1. Create an object to store all characters
   const stringObj = {};
-  let maxValue = 0;
+  let max = 0;
   let maxChar = '';
 
   // 2. Run a for-of loop throght the input String
@@ -44,9 +44,9 @@ function maxChar ( str )
   for ( let char in stringObj )
   {
     // 5. Compare each character to the current maximum occurence
-    if ( stringObj[ char ] > maxValue )
+    if ( stringObj[ char ] > max )
     {
-      maxValue = stringObj[ char ];
+      max = stringObj[ char ];
       maxChar = char;
     }
   }

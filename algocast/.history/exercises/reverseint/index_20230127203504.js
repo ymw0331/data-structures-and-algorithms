@@ -21,7 +21,7 @@ function reverseInt ( num )
   // }
 
   // return parseInt( reversed );
-  return parseInt( reversed ) * Math.sign( num );
+  return parseInt( reversed ) * Math.sign( n );
 
 }
 

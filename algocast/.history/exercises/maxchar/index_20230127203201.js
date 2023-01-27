@@ -20,39 +20,37 @@ function maxChar ( str )
 {
 
   // 1. Create an object to store all characters
-  const stringObj = {};
-  let maxValue = 0;
+  const charMap = {};
+  let max = 0;
   let maxChar = '';
 
   // 2. Run a for-of loop throght the input String
   // for let is to iterate thru array or string (iterable object)
   for ( let char of str )
   {
-    if ( stringObj[ char ] )
+    if ( charMap[ char ] )
     {
       // 3. Add the count of the character map with the count of occurrence of every character of the String
-      stringObj[ char ]++;
+      charMap[ char ]++;
     } else
     {
-      stringObj[ char ] = 1;
+      charMap[ char ] = 1;
     }
   }
-  // console.log( stringObj );
+  // console.log( charMap );
 
   // 4. Run a for-in loop through character map
   // use in to iterate object
-  for ( let char in stringObj )
+  for ( let char in charMap )
   {
     // 5. Compare each character to the current maximum occurence
-    if ( stringObj[ char ] > maxValue )
+    if ( charMap[ char ] > max )
     {
-      maxValue = stringObj[ char ];
+      max = charMap[ char ];
       maxChar = char;
     }
   }
-
-  // 6. Return the max number occured number
-  return maxChar;
+  return maxChar; 
 }
 
 
