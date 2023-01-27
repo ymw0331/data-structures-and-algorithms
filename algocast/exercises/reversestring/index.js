@@ -7,37 +7,31 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 
-
-
-// Solution #3
+// Solution #2;
 function reverse ( str )
 {
-  // 1. take str, turn it into array by calling split function, then use reduce helper (reduce take all diff values within array and condense them all down to one singular value)
-  return str.split( "" ).reduce( ( rev, char ) => char + rev, '' );
+  // 1. Create an empty string called 'reversed'
+  let reversed = '';
+
+  // 2. for each charater in the provided string, take the character and add it to the start of the reversed
+  // character == temp var, str == iterable object, iterate tru each character of str one by one, set each character equal to temp 'charater'
+  for ( let character of str )
+  {
+    reversed = character + reversed;
+    debugger;
+  }
+
+  // 3. return the variable 'reversed'
+  return reversed;
 }
 
+// reverse( 'hello' );
 
-// Solution #2
-// function reverse ( str )
-// {
-//   // 1. Create an empty string called 'reversed'
-//   let reversed = '';
-
-//   // 2. for each charater in the provided string, take the character and add it to the start of the reversed
-//   // character == temp var, str == iterable object, iterate tru each character of str one by one, set each character equal to temp 'charater'
-//   for ( let character of str )
-//   {
-//     reversed = character + reversed;
-//   }
-
-//   // 3. return the variable 'reversed'
-//   return reversed;
-// }
+module.exports = reverse;
 
 
 
-
-// Solution #1 
+// Solution #1
 // function reverse ( str )
 // {
 
@@ -53,4 +47,20 @@ function reverse ( str )
 //   return arr.join( '' );
 // }
 
-module.exports = reverse;
+
+
+// Solution #3
+// function reverse ( str )
+// {
+//   // 1. take str, turn it into array by calling split function, then use reduce helper (reduce take all diff values within array and condense them all down to one singular value)
+//   return str.split( '' ).reduce( ( rev, char ) => char + rev, '' );
+// }
+
+
+// Debugger Steps:
+// 1. Add a 'debugger' statement in your function
+// 2. Call the function manually
+// 3. At the terminal, run 'node inspect index.js';
+// 4. To continue execution of the file, press 'c' then 'enter';
+// 5. To launch a 'repl' sessionStorage, type 'repl' then 'enter';
+// 6. To exit the 'repl', press Control + C;
