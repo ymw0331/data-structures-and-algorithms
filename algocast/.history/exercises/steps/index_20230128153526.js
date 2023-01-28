@@ -32,38 +32,18 @@
 
 // Recursion Tips
 // Figure out the bare minimum pieces of information to represent your problem
-// Give reasonable defaults to the bare minimum pieces of info
-// Check the base case. Is there any work left to do? if not, return
-// Do some work. Call your function again, making sure the arguments have changed in some function
+// 
 
 
 // Solution #2: Recursion
-function steps ( n, row = 0, stair = '' )
+function steps ( n )
 {
-  // if(row === n) then we have hit the end of our problem
-  if ( n === row )
-  {
-    return;
-  }
 
-  // if the 'stair' string has a length === n then we are at the end of row
-  if ( n === stair.length )
-  {
-    console.log( stair );
-    steps( n, row + 1 );
-    return;
-  }
 
-  // if the length of the stair string is less than or equal to the row number, we're working on, we add a '#', otherwise add a space
-  if ( stair.length <= row )
-  {
-    stair += '#';
-  } else
-  {
-    stair += ' ';
-  }
-  steps( n, row, stair );
+
 }
+
+
 
 // Solution #1
 // function steps ( n )

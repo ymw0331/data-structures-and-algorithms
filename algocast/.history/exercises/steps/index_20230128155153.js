@@ -55,14 +55,10 @@ function steps ( n, row = 0, stair = '' )
   }
 
   // if the length of the stair string is less than or equal to the row number, we're working on, we add a '#', otherwise add a space
-  if ( stair.length <= row )
-  {
-    stair += '#';
-  } else
-  {
-    stair += ' ';
-  }
-  steps( n, row, stair );
+  if()
+
+
+
 }
 
 // Solution #1
