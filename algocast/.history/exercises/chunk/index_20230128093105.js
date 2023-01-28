@@ -17,10 +17,8 @@ function chunk ( array, size )
 {
   // 1. Create empty 'chunked' array
   const chunked = [];
-
   // 2. Create 'index' start at 0
   let index = 0;
-
   // 3. While index is less than array.length
   while ( index < array.length )
   {
@@ -31,10 +29,14 @@ function chunk ( array, size )
     index += size;
   }
 
-  return chunked;
+
+
+
 }
 
 module.exports = chunk;
+
+
 
 
 

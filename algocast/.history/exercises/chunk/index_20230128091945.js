@@ -8,33 +8,14 @@
 // chunk([1, 2, 3, 4, 5], 4) --> [[ 1, 2, 3, 4], [5]]
 // chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
-// slice(startIndex, endIndex)
-// const letters = [ 'a', 'b', 'c', 'd', 'e' ];
-// letters.slice( 0, 3 ); //get letters from index 0 to 3 not including it
 
-// Solution #2
-function chunk ( array, size )
-{
-  // 1. Create empty 'chunked' array
-  const chunked = [];
 
-  // 2. Create 'index' start at 0
-  let index = 0;
 
-  // 3. While index is less than array.length
-  while ( index < array.length )
-  {
 
-    // 3.1 Push a slice of length 'size' from 'array' into 'chunked'
-    chunked.push( array.slice( index, index + size ) );
-    // 3.2 Add 'size' to 'index' 
-    index += size;
-  }
 
-  return chunked;
-}
 
-module.exports = chunk;
+
+
 
 
 
@@ -44,7 +25,7 @@ module.exports = chunk;
 //   // 1. Create empty array to hold chunks called 'chunked'
 //   const chunked = [];
 
-//   // 2. For each element in the "unchunked" array
+//   // 2. For each element in the "unchunked" array 
 //   for ( let element of array )
 //   {
 //     // 2.1 Retrieve the last element in 'chunked'
@@ -64,3 +45,4 @@ module.exports = chunk;
 //   return chunked;
 // }
 
+module.exports = chunk;

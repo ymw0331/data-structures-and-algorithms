@@ -16,25 +16,17 @@
 function chunk ( array, size )
 {
   // 1. Create empty 'chunked' array
-  const chunked = [];
 
   // 2. Create 'index' start at 0
-  let index = 0;
-
   // 3. While index is less than array.length
-  while ( index < array.length )
-  {
+//
 
-    // 3.1 Push a slice of length 'size' from 'array' into 'chunked'
-    chunked.push( array.slice( index, index + size ) );
-    // 3.2 Add 'size' to 'index' 
-    index += size;
-  }
 
-  return chunked;
 }
 
 module.exports = chunk;
+
+
 
 
 
