@@ -12,34 +12,6 @@
 // const sentence = "Hi there buddy!";
 // sentence.split( " " ); //split by empty space
 
-// Solution #2
-// function capitalize ( str )
-// {
-//   // 1. Create an empty string called 'result'
-//   // 1. Create 'result' which is the first character of the input string capitalized
-//   let result = str[ 0 ].toUpperCase();
-
-//   // 2. For each character in the string
-//   for ( let i = 1; i < str.length; i++ )
-//   {
-//     // 2.1 If the character to the left a space, if there is a space means it is a CAPITAL LETTER
-//     // 2.1.1 Capitalize it and add it to 'result'
-//     if ( str[ i - 1 ] === ' ' )
-//     {
-//       result += str[ i ].toUpperCase();
-//     }
-//     // 2.2 Else Add it to 'result'
-//     else
-//     {
-//       result += str[ i ];
-//     }
-//   }
-//   return result;
-// }
-
-
-
-
 // Solution #1
 function capitalize ( str )
 {
@@ -55,15 +27,16 @@ function capitalize ( str )
   {
     // 3.1 Uppercase the first letter of the word
     // 3.2 Joing first letter with rest of the string
+
+    word[ 0 ].toUpperCase() + word.slice( 1 ); //get everything from index 1 to last element of word
+
+
+
     // 3.3 Push result into "words" array
-    words.push(
-      word[ 0 ].toUpperCase() + word.slice( 1 )//get everything from index 1 to last element of word
-    );
 
   }
 
   // 4. Join 'words' into a string and return it
-  return words.join( ' ' );
 
 }
 

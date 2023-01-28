@@ -37,6 +37,7 @@
 //   return result;
 // }
 
+module.exports = capitalize;
 
 
 
@@ -66,5 +67,3 @@ function capitalize ( str )
   return words.join( ' ' );
 
 }
-
-module.exports = capitalize;

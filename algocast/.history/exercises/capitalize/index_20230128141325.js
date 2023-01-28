@@ -13,30 +13,31 @@
 // sentence.split( " " ); //split by empty space
 
 // Solution #2
-// function capitalize ( str )
-// {
-//   // 1. Create an empty string called 'result'
-//   // 1. Create 'result' which is the first character of the input string capitalized
-//   let result = str[ 0 ].toUpperCase();
+function capitalize ( str )
+{
+  // 1. Create an empty string called 'result'
+  // 1. Create 'result' which is the first character of the input string capitalized
+  let result = str[ 0 ].toUpperCase();
 
-//   // 2. For each character in the string
-//   for ( let i = 1; i < str.length; i++ )
-//   {
-//     // 2.1 If the character to the left a space, if there is a space means it is a CAPITAL LETTER
-//     // 2.1.1 Capitalize it and add it to 'result'
-//     if ( str[ i - 1 ] === ' ' )
-//     {
-//       result += str[ i ].toUpperCase();
-//     }
-//     // 2.2 Else Add it to 'result'
-//     else
-//     {
-//       result += str[ i ];
-//     }
-//   }
-//   return result;
-// }
+  // 2. For each character in the string
+  for ( let i = 1; i < str.length; i++ )
+  {
+    // 2.1 If the character to the left a space, if there is a space means it is a CAPITAL LETTER
+    // 2.1.1 Capitalize it and add it to 'result'
+    if ( str[ i - 1 ] === ' ' )
+    {
+      result += str[ i ].toUpperCase();
+    }
+    // 2.2 Else Add it to 'result'
+    else
+    {
+      result += str[ i ];
+    }
+  }
+  return result;
+}
 
+module.exports = capitalize;
 
 
 
@@ -66,5 +67,3 @@ function capitalize ( str )
   return words.join( ' ' );
 
 }
-
-module.exports = capitalize;
