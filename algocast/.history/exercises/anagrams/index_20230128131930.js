@@ -15,27 +15,12 @@
 // const obj = { a: 1, b: 1, c: 1 };
 // Object.keys( obj );
 
-// const numbers = [ 100, 20.5, - 90, 10000 ];
-// numbers.sort();
-
-// Solution #2
-function anagrams ( stringA, stringB )
-{
-  return cleanString( stringA ) === cleanString( stringB );
-}
-
-function cleanString ( str )
-{
-  // remove spaces & punctuation
-  // lowercase both strings
-  // sort both strings, if end up same order, it is anagrams
-  return str.replace( /[^\w]/g, '' ).toLowerCase().split( '' ).sort().join( '' );
-}
-
-module.exports = anagrams;
 
 
-// Solution #1
+
+
+
+
 // function anagrams ( stringA, stringB )
 // {
 //   const aCharMap = buildCharMap( stringA );
@@ -70,3 +55,4 @@ module.exports = anagrams;
 //   return charMap;
 // }
 
+module.exports = anagrams;

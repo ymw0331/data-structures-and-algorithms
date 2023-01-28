@@ -21,7 +21,8 @@
 // Solution #2
 function anagrams ( stringA, stringB )
 {
-  return cleanString( stringA ) === cleanString( stringB );
+
+  cleanString( stringA ) === cleanString( stringB );
 }
 
 function cleanString ( str )

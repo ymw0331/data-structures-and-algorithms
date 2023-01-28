@@ -21,7 +21,9 @@
 // Solution #2
 function anagrams ( stringA, stringB )
 {
-  return cleanString( stringA ) === cleanString( stringB );
+
+
+
 }
 
 function cleanString ( str )
@@ -29,6 +31,7 @@ function cleanString ( str )
   // remove spaces & punctuation
   // lowercase both strings
   // sort both strings, if end up same order, it is anagrams
+
   return str.replace( /[^\w]/g, '' ).toLowerCase().split( '' ).sort().join( '' );
 }
 

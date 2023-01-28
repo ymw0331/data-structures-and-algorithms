@@ -21,15 +21,17 @@
 // Solution #2
 function anagrams ( stringA, stringB )
 {
-  return cleanString( stringA ) === cleanString( stringB );
+
+  // remove spaces & punctuation
+  // lowercase both strings
+  // sort both strings, if end up same order, it is anagrams
+
+
 }
 
 function cleanString ( str )
 {
-  // remove spaces & punctuation
-  // lowercase both strings
-  // sort both strings, if end up same order, it is anagrams
-  return str.replace( /[^\w]/g, '' ).toLowerCase().split( '' ).sort().join( '' );
+  return str.replace( /[^\w]/g, '' ).toLowerCase();
 }
 
 module.exports = anagrams;
