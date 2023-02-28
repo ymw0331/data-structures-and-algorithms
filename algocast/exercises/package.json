@@ -1,5 +1,5 @@
 {
-  "name": "dev",
+  "name": "Data Structures and Algorithm in Javascript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,6 @@
   "jest": {
     "testEnvironment": "node"
   },
-  "author": "stephen grider",
+  "author": "Ming Wei Yong",
   "license": "ISC"
 }
